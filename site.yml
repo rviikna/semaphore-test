@@ -2,6 +2,6 @@
 - hosts: my_servers
   become: true
   tasks:
-    - name: Print OS info
+    - name: Install Tmux
       ansible.builtin.package:
-        name: screen
+        name: tmux
